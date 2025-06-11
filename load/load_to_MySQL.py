@@ -8,7 +8,9 @@ load_dotenv()
 df = pd.read_csv("data/processed/clean_credit_data.csv")
 
 conn = mysql.connector.connect(
-    host=os.getenv("POSTGRES_HOST"),
+
+   # host="mysql",
+    host="localhost",
     port=3306,
     user=os.getenv("MYSQL_USER"),
     password=os.getenv("MYSQL_PASSWORD"),
@@ -37,3 +39,17 @@ conn.commit()
 cursor.close()
 conn.close()
 print("✅ Données chargées dans MySQL")
+
+import mysql.connector
+
+def test_mysql_loaded():
+    conn = mysql.connector.connect(
+        host="localhost",
+        user="credituser",
+        password="creditpass",
+        database="creditdb"
+    )
+    cursor = conn.cursor()
+    cursor.execute("SELECT COUNT(*) FROM credit_data")
+    count = cursor.fetchone()[0]
+    assert count > 0, "Aucune donnée insérée dans MySQL"

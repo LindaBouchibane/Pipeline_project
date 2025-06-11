@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1465358c-6276-468e-a186-fe86d53ee3cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dags/etl_pipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_minio_upload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload_minio/etl_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/minio_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/upload_to_minio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dags/etl_pipeline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load/load_to_MySQL.py" beforeDir="false" afterPath="$PROJECT_DIR$/load/load_to_MySQL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transform/clean_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/transform/clean_transform.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749594778661</updated>
-      <workItem from="1749594779847" duration="6295000" />
+      <workItem from="1749594779847" duration="22819000" />
     </task>
     <servers />
   </component>

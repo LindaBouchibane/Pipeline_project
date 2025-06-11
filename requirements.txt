@@ -7,3 +7,5 @@ mysql-connector-python
 kaggle
 pytest
 apache-airflow
+boto3
+python-dotenv
