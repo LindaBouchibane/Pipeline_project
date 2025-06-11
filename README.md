@@ -2,7 +2,6 @@
 
 ![Docker](https://img.shields.io/badge/docker-ready-blue)
 ![Jenkins](https://img.shields.io/badge/jenkins-ci%2Fcd-green)
-![Airflow](https://img.shields.io/badge/airflow-scheduled-blue)
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 
 ---
@@ -13,9 +12,8 @@ Ce projet met en œuvre un pipeline de traitement de données financières (cré
 -  **ETL complet** (Extract → Transform → Load)
 -  **Docker** & **Docker Compose**
 -  **MinIO** (Data Lake)
--  **PostgreSQL & MySQL** (stockage structuré)
+-  * MySQL** (stockage structuré)
 -  **Jenkins** (CI/CD pipeline)
--  **Streamlit Dashboard**
 -  **Pytest** pour les tests automatisés
 
 ---
@@ -56,5 +54,5 @@ stage('Test') {
 ---
 
 Jenkins Dashboard: [localhost:8081](http://localhost:8081)
-
+Done
 ---
