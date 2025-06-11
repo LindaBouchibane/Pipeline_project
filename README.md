@@ -15,7 +15,6 @@ Ce projet met en œuvre un pipeline de traitement de données financières (cré
 -  **MinIO** (Data Lake)
 -  **PostgreSQL & MySQL** (stockage structuré)
 -  **Jenkins** (CI/CD pipeline)
--  **Apache Airflow** (orchestration DAG)
 -  **Streamlit Dashboard**
 -  **Pytest** pour les tests automatisés
 
@@ -28,7 +27,6 @@ cd Pipeline_Project
 docker-compose up --build
 ```
 
-- Airflow : http://localhost:8080  → `admin / admin`
 - Jenkins : http://localhost:8081  → interface CI
 - phpMyAdmin : http://localhost:8082  → base MySQL
 - Streamlit : http://localhost:8501  → tableau de bord
@@ -57,7 +55,6 @@ stage('Test') {
 
 ---
 
-Alerting
-À la fin du DAG Airflow, un email est envoyé à `lindabouchibane@gmail.com` pour confirmer la réussite.
+Jenkins Dashboard: [localhost:8081](http://localhost:8081)
 
 ---
