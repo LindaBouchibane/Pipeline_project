@@ -1,0 +1,9 @@
+pandas
+requests
+python-dotenv
+minio
+psycopg2-binary
+mysql-connector-python
+kaggle
+pytest
+apache-airflow
