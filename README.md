@@ -26,6 +26,7 @@ docker-compose up --build
 ```
 
 - Jenkins : http://localhost:8081  → interface CI
+![Jenkins Build](http://localhost:8081/buildStatus/icon?job=Project_pipeline)
 - phpMyAdmin : http://localhost:8082  → base MySQL
 - Streamlit : http://localhost:8501  → tableau de bord
 
@@ -53,6 +54,6 @@ stage('Test') {
 
 ---
 
-Jenkins Dashboard: [localhost:8081](http://localhost:8081)
+
 Done
 ---
